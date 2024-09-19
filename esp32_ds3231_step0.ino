@@ -1,4 +1,4 @@
-// esp32_ds3231_step0.ino
+// esp32_ds3231_step1.ino
 // Date and time functions using a DS3231 RTC connected via I2C and Wire lib
 #include "RTClib.h"
 

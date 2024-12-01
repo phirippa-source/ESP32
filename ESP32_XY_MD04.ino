@@ -7,7 +7,7 @@ byte cmd[] = {0x01, 0x04, 0x00, 0x01, 0x00, 0x02, 0x20, 0x0B};
 byte rxBuf[9];
 
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(115200);
     RS485.begin(9600, SERIAL_8N1, 16, 17);
     pinMode(RS485RW, OUTPUT);
 }

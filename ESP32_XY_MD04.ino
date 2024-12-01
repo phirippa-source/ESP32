@@ -1,4 +1,4 @@
-#define RS485RW     4
+#define RS485RW     5
 #define WRITE_MODE  HIGH
 #define READ_MODE   LOW
 

@@ -4,7 +4,7 @@ BH1750 lightMeter;
 
 void setup() {
   Serial.begin(115200);
-  Wire.begin(8, 10);    // SDA = GPIO8, SCL = GPIO10
+  Wire.begin(8, 10);    // SDA = GPIO8, SCL = GPIO10, f= 400kHz
   lightMeter.begin();
   Serial.println(F("BH1750 Test begin"));
 }

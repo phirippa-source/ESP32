@@ -13,7 +13,7 @@ const char* serverIPAddr = "192.168.2.6";
 const char* userId = "ship";
 const char* userPw = "1234";
 const char* clientId = "ria_lolin_c3_mini_01";
-const char* topic = "Riatech/A/Line1/Lux";
+const char* topic = "Riatech/Line1/Lux";
 
 WiFiClient wifiClient; 
 PubSubClient client(serverIPAddr, 1883, wifiClient);
